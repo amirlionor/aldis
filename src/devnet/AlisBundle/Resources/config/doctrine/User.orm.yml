@@ -1,0 +1,11 @@
+devnet\AlisBundle\Entity\User:
+    type: entity
+    table: null
+    repositoryClass: devnet\AlisBundle\Repository\UserRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }

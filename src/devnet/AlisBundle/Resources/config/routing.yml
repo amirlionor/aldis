@@ -1,0 +1,32 @@
+devnet_alis_homepage:
+    path:     /
+    defaults: { _controller: devnetAlisBundle:Default:index }
+    
+devnet_alis_connexion:
+    path:     /connexion
+    defaults: { _controller: devnetAlisBundle:Default:connexion }
+    
+devnet_alis_contact:
+    path:     /contact
+    defaults: { _controller: devnetAlisBundle:Default:contact }
+    
+devnet_alis_inscription:
+    path:     /inscription
+    defaults: { _controller: devnetAlisBundle:Default:inscription }
+    
+devnet_alis_portfolio:
+    path:     /portfolio
+    defaults: { _controller: devnetAlisBundle:Default:portfolio }
+    
+devnet_alis_produits:
+    path:     /produits
+    defaults: { _controller: devnetAlisBundle:Default:produits }
+   
+devnet_alis_produit:
+    path:     /produit
+    defaults: { _controller: devnetAlisBundle:Default:produit }
+    
+devnet_alis_service:
+    path:     /service
+    defaults: { _controller: devnetAlisBundle:Default:service }
+    
